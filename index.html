@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <button data-action="menu" data-page="a" onclick="alterarConteudo('a')">
+            Inicio
+        </button>
+        <button data-action="menu" data-page="b" onclick="alterarConteudo('b')">
+            Login
+        </button>
+        <button data-action="menu" data-page="c" onclick="alterarConteudo('c')">
+            Cadastro
+        </button>
+        <button data-action="menu" data-page="d" onclick="alterarConteudo('d')">
+            Configuração
+        </button>
+        <button data-action="menu" data-page="e" onclick="alterarConteudo('e')">
+            Listar
+        </button>
+    </nav>
+    <main id="conteudo"></main>
+    
+    
+    <script src="js/router.js" type="module"></script>
+</body>
+</html>
